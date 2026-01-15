@@ -1,0 +1,12 @@
+com/cercalia/examples/AllExamplesRunner.class
+com/cercalia/examples/PoiExample.class
+com/cercalia/examples/SnapToRoadExample.class
+com/cercalia/examples/GeocodingExample.class
+com/cercalia/examples/ProximityExample.class
+com/cercalia/examples/StaticMapsExample.class
+com/cercalia/examples/GeomentExample.class
+com/cercalia/examples/GeofencingExample.class
+com/cercalia/examples/SuggestExample.class
+com/cercalia/examples/IsochroneExample.class
+com/cercalia/examples/RoutingExample.class
+com/cercalia/examples/ReverseGeocodingExample.class

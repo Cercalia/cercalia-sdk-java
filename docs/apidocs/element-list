@@ -1,0 +1,17 @@
+com.cercalia.sdk
+com.cercalia.sdk.exception
+com.cercalia.sdk.model
+com.cercalia.sdk.model.common
+com.cercalia.sdk.model.geocoding
+com.cercalia.sdk.model.geofencing
+com.cercalia.sdk.model.geoment
+com.cercalia.sdk.model.isochrone
+com.cercalia.sdk.model.poi
+com.cercalia.sdk.model.proximity
+com.cercalia.sdk.model.reversegeocoding
+com.cercalia.sdk.model.routing
+com.cercalia.sdk.model.snaptoroad
+com.cercalia.sdk.model.staticmaps
+com.cercalia.sdk.model.suggest
+com.cercalia.sdk.services
+com.cercalia.sdk.util

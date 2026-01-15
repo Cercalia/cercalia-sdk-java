@@ -1,0 +1,48 @@
+# Maven target directory
+/target/
+
+# Eclipse files
+.classpath
+.project
+.settings/
+
+# IntelliJ IDEA files
+*.iml
+.idea/
+out/
+
+# NetBeans files
+/nbproject/private/
+/build/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# VS Code files
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Maven wrapper
+.mvn/wrapper/maven-wrapper.jar
+
+# Dependency directories
+**/node_modules/
+**/bower_components/
+
+# Compiled class files
+*.class
+
+# Package files
+*.jar
+*.war
+*.ear
+AGENTS.md
+.idea/
+.vscode/
