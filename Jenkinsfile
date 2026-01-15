@@ -41,7 +41,7 @@ pipeline {
                 }
                 agent {
                     docker {
-                        image "eclipse-temurin:${JDK_VERSION}-jdk"
+                        image "maven:3.9.12-eclipse-temurin-${JDK_VERSION}-alpine"
                         args '-v $HOME/.m2:/root/.m2'
                     }
                 }
@@ -65,7 +65,7 @@ pipeline {
             }
             agent {
                 docker {
-                    image 'eclipse-temurin:8-jdk'
+                    image 'maven:3.9.12-eclipse-temurin-8-alpine'
                     args '-v $HOME/.m2:/root/.m2'
                 }
             }
