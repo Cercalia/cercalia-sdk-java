@@ -35,12 +35,15 @@ pipeline {
             matrix {
                 axes {
                     axis {
-                        name 'JDK'
-                        values 'temurin-8', 'temurin-11', 'temurin-17', 'temurin-21'
+                        name 'JDK_VERSION'
+                        values '8', '11', '17', '21'
                     }
                 }
-                tools {
-                    jdk "${JDK}"
+                agent {
+                    docker {
+                        image "eclipse-temurin:${JDK_VERSION}-jdk"
+                        args '-v $HOME/.m2:/root/.m2'
+                    }
                 }
                 stages {
                     stage('Tests') {
@@ -60,8 +63,11 @@ pipeline {
                     }
                 }
             }
-            tools {
-                jdk 'temurin-8'
+            agent {
+                docker {
+                    image 'eclipse-temurin:8-jdk'
+                    args '-v $HOME/.m2:/root/.m2'
+                }
             }
             steps {
                 withCredentials([
